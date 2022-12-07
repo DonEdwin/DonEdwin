@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --azuloscuro: #2c65ad;
+    --azulnormal: #9ec6eb;
+    --azulclaro: #c8ddf4;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /* outline:  5px red solid ; */
+
+}
+
+body{
+    padding-top: 90px;
+}
+
+.navbar{
+    font-size: 1em;
+}
+.navbar-nav{
+    color: white;
+}
+
+
+#footersi{
+    background-color: #171c2c;
+    
+}
+
+footer p{
+    color: white;
+}
+
+.marcoredes{
+    width: 50px;
+}
+.marcoredes a{
+    width: 50px;
+}
+
+.marcoredes a i{
+    font-size: 2em;
+    color: white;
+}
